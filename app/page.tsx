@@ -7,7 +7,7 @@ import { FaTools, FaWrench, FaRedo, FaSearch, FaWater, FaBolt, FaUser, FaEnvelop
 import { FaPhoneAlt } from "react-icons/fa";
 
 const services = [
-  { title: "Roof Installation", desc: "Expert installation of new roofs using quality materials and skilled craftsmanship." },
+  { title: "Metal Roofing", desc: "Expert installation of durable metal roofing systems with superior weather resistance." },
   { title: "Roof Repair", desc: "Quick and reliable repairs for leaks, storm damage, and wear." },
   { title: "Inspection & Maintenance", desc: "Comprehensive inspections and regular maintenance to extend your roof’s life." },
   { title: "Gutter Services", desc: "Installation and cleaning of gutters to protect your property." },
@@ -24,16 +24,16 @@ const faqs = [
 
 const serviceList = [
   {
-    title: "Roof Installation",
+    title: "Metal Roofing",
     icon: <FaTools className="text-3xl text-gray-700" />,
     image: "/what-happens-during-a-roof-installation-01.jpg",
-    desc: "Expert installation of new roofs using high-quality materials and skilled craftsmanship."
+    desc: "Expert installation of durable metal roofing systems with superior weather resistance and longevity."
   },
   {
-    title: "Roof Repair",
+    title: "Wall Cladding",
     icon: <FaWrench className="text-3xl text-gray-700" />,
     image: "/leaking-roof-repair-scaled-1703x1703.jpg",
-    desc: "Quick and reliable repairs for leaks, storm damage, and general wear and tear."
+    desc: "Professional wall cladding installation for enhanced protection and modern aesthetics."
   },
   {
     title: "Roof Replacement",
@@ -145,23 +145,23 @@ function FAQSection() {
   const faqs = [
     {
       q: "What types of roofing materials do you offer?",
-      a: "We work with asphalt shingles, metal roofing, tile, flat roofs, and more. We'll recommend the best option for your property and budget."
+      a: "We specialize in high-quality metal roofing materials including Colorbond steel, standing seam systems, and custom fabricated solutions for South West Sydney properties."
     },
     {
       q: "How long does a roof replacement take?",
-      a: "Most residential roof replacements are completed within 1-3 days, depending on the size and complexity of the project."
+      a: "Most metal roofing installations are completed within 2-5 days, depending on the size and complexity of the project. Wall cladding projects vary based on scope."
     },
     {
       q: "Are you licensed and insured for roofing?",
-      a: "Yes, Straight Flow Roofing is fully licensed and insured for all roofing work. Your property is in safe hands."
+      a: "Yes, Straight Flow Roofing is fully licensed and insured for all metal roofing and cladding work across South West Sydney. Your property is in safe hands."
     },
     {
       q: "Do you offer emergency roof repairs?",
-      a: "Absolutely! We provide 24/7 emergency roofing services for urgent leaks and storm damage."
+      a: "Yes, we provide emergency metal roof repair services for urgent issues. Contact us on 0488 577 494 or 0481 131 570 for immediate assistance."
     },
     {
       q: "How do I know if my roof needs replacing?",
-      a: "Common signs include missing shingles, leaks, sagging, and visible wear. We offer free inspections to assess your roof's condition."
+      a: "Signs include rust spots, loose panels, damaged flashing, or leaks. We offer free metal roof inspections to assess your roof's condition and recommend solutions."
     },
     {
       q: "Do you provide free roofing estimates?",
@@ -251,17 +251,17 @@ function ContactSection() {
             <p className="text-lg text-gray-300 mb-8">For any inquiries or to explore your vision further, we invite you to contact our professional team using the details provided below.</p>
             <div className="grid grid-cols-2 gap-x-4 gap-y-2 text-base mb-6">
               <div className="font-semibold">Office</div>
-              <div>150 Old Park Ln, London W1K 1QZ</div>
+              <div>South West Sydney, NSW, Australia</div>
               <div className="font-semibold">Email</div>
-              <div>hello@straightflowroofing.com</div>
+              <div>Contact via phone or Instagram</div>
               <div className="font-semibold">Telephone</div>
-              <div>07716 534984</div>
+              <div>0488 577 494 • 0481 131 570</div>
             </div>
             <hr className="border-gray-700 my-4" />
             <div className="mt-4">
               <div className="font-semibold mb-2">Follow us</div>
               <div className="flex gap-4 text-2xl">
-                <a href="#" aria-label="Instagram" className="hover:text-gray-300">{/* Instagram */}
+                <a href="https://instagram.com/straightflowroofing" target="_blank" aria-label="Instagram @straightflowroofing" className="hover:text-gray-300">{/* Instagram */}
                   <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
                 </a>
                 <a href="#" aria-label="TikTok" className="hover:text-gray-300">{/* TikTok */}
@@ -344,17 +344,17 @@ function FooterSection() {
 function TestimonialsSection() {
   const testimonials = [
     {
-      text: "Straight Flow Roofing replaced our leaking roof and the results are fantastic. The crew was professional, efficient, and left our property spotless. Highly recommended!",
+      text: "Straight Flow Roofing installed our new Colorbond metal roof and the results are fantastic. The crew was professional, efficient, and left our property spotless. Highly recommended!",
       name: "James Richardson",
       img: "https://randomuser.me/api/portraits/men/32.jpg",
     },
     {
-      text: "We needed emergency repairs after a storm and Straight Flow Roofing responded immediately. They fixed the damage and gave us peace of mind. Great service!",
+      text: "We needed emergency metal roof repairs after a storm and Straight Flow Roofing responded immediately. They fixed the damaged panels and gave us peace of mind. Great service!",
       name: "Sophie Williams",
       img: "https://randomuser.me/api/portraits/women/44.jpg",
     },
     {
-      text: "Our new roof looks amazing and has made our home much more energy efficient. The team was friendly and the workmanship is top-notch.",
+      text: "Our new standing seam metal roof looks amazing and has made our home much more energy efficient. The team was friendly and the workmanship is top-notch.",
       name: "Daniel Foster",
       img: "https://randomuser.me/api/portraits/men/65.jpg",
     },
@@ -364,12 +364,12 @@ function TestimonialsSection() {
       img: "https://randomuser.me/api/portraits/women/68.jpg",
     },
     {
-      text: "Fantastic workmanship! Straight Flow Roofing repaired our gutters and fixed a persistent leak. Everything was explained clearly and done on time.",
+      text: "Fantastic workmanship! Straight Flow Roofing installed our wall cladding and the custom fabrication work is exceptional. Everything was explained clearly and done on time.",
       name: "Oliver Bennett",
       img: "https://randomuser.me/api/portraits/men/12.jpg",
     },
     {
-      text: "Straight Flow Roofing did an incredible job on our commercial flat roof. The quality is excellent and the team was a pleasure to work with.",
+      text: "Straight Flow Roofing did an incredible job on our commercial metal roofing project. The quality is excellent and the team was a pleasure to work with.",
       name: "Emily Carter",
       img: "https://randomuser.me/api/portraits/women/22.jpg",
     },
@@ -811,12 +811,12 @@ export default function Home() {
           {/* Get a Quote and Call buttons for lg+ screens (desktop) */}
           <div className="hidden lg:flex items-center gap-3">
             <a
-              href="tel:07716534984"
+              href="tel:0488577494"
               className="inline-flex items-center bg-white text-black font-semibold px-5 py-2 rounded hover:bg-gray-200 transition"
               style={{ minWidth: 'fit-content' }}
             >
               <FaPhoneAlt className="mr-2" />
-              07716 534984
+              0488 577 494
             </a>
             <button
               onClick={() => smoothScrollTo('contact')}
@@ -943,9 +943,9 @@ export default function Home() {
             transition={{ duration: 0.8, ease: 'easeOut' }}
           >
             {/* Pill Badge */}
-            <span className="inline-block bg-white text-black font-bold px-3 py-0.5 rounded-full mb-3 text-xs border border-gray-200">Best Roofing Company in Alabama</span>
-            <h1 className="text-4xl sm:text-5xl font-bold mb-4">Your trusted partner for quality roofing</h1>
-            <p className="mb-6 text-lg">Professional roofing solutions for homes and businesses. Reliable, experienced, and dedicated to excellence.</p>
+            <span className="inline-block bg-white text-black font-bold px-3 py-0.5 rounded-full mb-3 text-xs border border-gray-200">Leading Metal Roofing Specialists in South West Sydney</span>
+            <h1 className="text-4xl sm:text-5xl font-bold mb-4">Metal Roofing & Wall Cladding Experts</h1>
+            <p className="mb-6 text-lg">Specializing in metal roofing, wall cladding, and standing seam installations across South West Sydney. Reliable, experienced, and dedicated to excellence.</p>
             <button
               onClick={() => smoothScrollTo('contact')}
               className="bg-white text-black font-semibold px-8 py-3 rounded shadow hover:bg-gray-200 transition"
@@ -1071,7 +1071,7 @@ export default function Home() {
             viewport={{ once: true, amount: 0.7 }}
             transition={{ duration: 0.8, ease: 'easeOut', delay: 0.15 }}
           >
-            Welcome to Straight Flow Roofing, your trusted roofing experts. With years of experience in residential and commercial roofing, we deliver top-quality craftsmanship and a seamless customer experience. From new installations to repairs and inspections, we’re dedicated to protecting your property with the best roofing solutions. Let us keep your home safe and dry!
+            Welcome to Straight Flow Roofing, South West Sydney's leading metal roofing specialists. With years of experience in metal roofing, wall cladding, and standing seam installations, we deliver superior craftsmanship and exceptional service. From residential homes to commercial buildings, we're dedicated to providing durable, weather-resistant solutions that stand the test of time.
           </motion.div>
         </div>
         {/* Scrolling Image Gallery with Auto-scroll */}

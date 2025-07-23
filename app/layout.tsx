@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Straight Flow Roofing - Professional Roofing Services",
-  description: "Expert roofing services for residential and commercial properties. Quality installations, repairs, and maintenance by Straight Flow Roofing.",
+  title: "Straight Flow Roofing - Metal Roofing & Wall Cladding Specialists",
+  description: "Expert metal roofing, wall cladding, and standing seam services in South West Sydney. Quality installations and superior craftsmanship by Straight Flow Roofing.",
 };
 
 export default function RootLayout({
