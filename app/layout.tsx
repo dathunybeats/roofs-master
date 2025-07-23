@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sydney Crown Roofing & Gutters - Professional Services",
-  description: "Expert roofing and gutter services for residential and commercial properties. Quality installations, repairs, and maintenance by Sydney Crown Roofing & Gutters.",
+  title: "Sydney Crown Roofing & Gutters - Expert Roofing & Gutter Services Sydney",
+  description: "Professional roofing and gutter services across Sydney, NSW. Specializing in installations, repairs, and maintenance for residential and commercial properties.",
 };
 
 export default function RootLayout({

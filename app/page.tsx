@@ -27,37 +27,37 @@ const serviceList = [
     title: "Roof Installation",
     icon: <FaTools className="text-3xl text-gray-700" />,
     image: "/what-happens-during-a-roof-installation-01.jpg",
-    desc: "Expert installation of new roofs using high-quality materials and skilled craftsmanship."
+    desc: "Professional roof installations across Sydney using premium materials and expert craftsmanship for lasting protection."
   },
   {
-    title: "Roof Repair",
+    title: "Roof Repairs",
     icon: <FaWrench className="text-3xl text-gray-700" />,
     image: "/leaking-roof-repair-scaled-1703x1703.jpg",
-    desc: "Quick and reliable repairs for leaks, storm damage, and general wear and tear."
+    desc: "Fast and reliable roof repairs throughout Sydney for leaks, storm damage, and general wear and tear."
+  },
+  {
+    title: "Gutter Installation",
+    icon: <FaWater className="text-3xl text-gray-700" />,
+    image: "/services/restoration.jpg",
+    desc: "Expert gutter installation services across Sydney to protect your property from water damage."
+  },
+  {
+    title: "Gutter Cleaning & Maintenance",
+    icon: <FaSearch className="text-3xl text-gray-700" />,
+    image: "/services/extension.jpg",
+    desc: "Professional gutter cleaning and maintenance services to keep your Sydney property's drainage system functioning perfectly."
   },
   {
     title: "Roof Replacement",
     icon: <FaRedo className="text-3xl text-gray-700" />,
     image: "/Re-Roofing-Or-Roof-Replacement.jpg",
-    desc: "Full roof replacements to keep your property safe and dry for years to come."
+    desc: "Complete roof replacement services for Sydney properties, ensuring long-term protection and improved property value."
   },
   {
-    title: "Roof Inspection & Maintenance",
-    icon: <FaSearch className="text-3xl text-gray-700" />,
-    image: "/services/extension.jpg",
-    desc: "Comprehensive inspections and regular maintenance to extend your roof’s lifespan."
-  },
-  {
-    title: "Gutter Services",
-    icon: <FaWater className="text-3xl text-gray-700" />,
-    image: "/services/restoration.jpg",
-    desc: "Installation and cleaning of gutters to protect your roof and property."
-  },
-  {
-    title: "Emergency Roofing",
+    title: "Emergency Services",
     icon: <FaBolt className="text-3xl text-gray-700" />,
     image: "/services/external.jpg",
-    desc: "24/7 emergency roofing repairs for urgent needs."
+    desc: "24/7 emergency roofing and gutter services across Sydney for urgent repairs and storm damage response."
   },
 ];
 
@@ -169,7 +169,7 @@ function FAQSection() {
     },
     {
       q: "What areas do you serve?",
-      a: "We serve the entire local region and surrounding areas. Contact us to see if we cover your location."
+      a: "We proudly serve all areas across Sydney, NSW, and surrounding suburbs. Contact us to confirm coverage for your specific location."
     },
   ];
   const [openIdx, setOpenIdx] = useState<number | null>(null);
@@ -250,12 +250,12 @@ function ContactSection() {
             <h2 className="text-4xl font-bold mb-4">Get in touch</h2>
             <p className="text-lg text-gray-300 mb-8">For any inquiries or to explore your vision further, we invite you to contact our professional team using the details provided below.</p>
             <div className="grid grid-cols-2 gap-x-4 gap-y-2 text-base mb-6">
-              <div className="font-semibold">Office</div>
-              <div>150 Old Park Ln, London W1K 1QZ</div>
+              <div className="font-semibold">Service Area</div>
+              <div>Sydney, NSW, Australia</div>
               <div className="font-semibold">Email</div>
-              <div>hello@sydneycrownroofing.com</div>
+              <div>sydneycrownroofing@gmail.com</div>
               <div className="font-semibold">Telephone</div>
-              <div>07716 534984</div>
+              <div>0411 206 707</div>
             </div>
             <hr className="border-gray-700 my-4" />
             <div className="mt-4">
@@ -811,12 +811,12 @@ export default function Home() {
           {/* Get a Quote and Call buttons for lg+ screens (desktop) */}
           <div className="hidden lg:flex items-center gap-3">
             <a
-              href="tel:07716534984"
+              href="tel:0411206707"
               className="inline-flex items-center bg-white text-black font-semibold px-5 py-2 rounded hover:bg-gray-200 transition"
               style={{ minWidth: 'fit-content' }}
             >
               <FaPhoneAlt className="mr-2" />
-              07716 534984
+              0411 206 707
             </a>
             <button
               onClick={() => smoothScrollTo('contact')}
@@ -943,9 +943,9 @@ export default function Home() {
             transition={{ duration: 0.8, ease: 'easeOut' }}
           >
             {/* Pill Badge */}
-            <span className="inline-block bg-white text-black font-bold px-3 py-0.5 rounded-full mb-3 text-xs border border-gray-200">Best Roofing Company in Alabama</span>
-            <h1 className="text-4xl sm:text-5xl font-bold mb-4">Your trusted partner for quality roofing</h1>
-            <p className="mb-6 text-lg">Professional roofing solutions for homes and businesses. Reliable, experienced, and dedicated to excellence.</p>
+            <span className="inline-block bg-white text-black font-bold px-3 py-0.5 rounded-full mb-3 text-xs border border-gray-200">Premier Roofing & Gutter Services Sydney</span>
+            <h1 className="text-4xl sm:text-5xl font-bold mb-4">Sydney's Leading Roofing & Gutter Specialists</h1>
+            <p className="mb-6 text-lg">Expert roofing and gutter services across Sydney, NSW. Professional installations, repairs, and maintenance for residential and commercial properties.</p>
             <button
               onClick={() => smoothScrollTo('contact')}
               className="bg-white text-black font-semibold px-8 py-3 rounded shadow hover:bg-gray-200 transition"
@@ -1071,7 +1071,7 @@ export default function Home() {
             viewport={{ once: true, amount: 0.7 }}
             transition={{ duration: 0.8, ease: 'easeOut', delay: 0.15 }}
           >
-            Welcome to Sydney Crown Roofing & Gutters, your trusted roofing experts. With years of experience in residential and commercial roofing, we deliver top-quality craftsmanship and a seamless customer experience. From new installations to repairs and inspections, we’re dedicated to protecting your property with the best roofing solutions. Let us keep your home safe and dry!
+            Welcome to Sydney Crown Roofing & Gutters, Sydney's premier roofing and gutter specialists. We provide comprehensive roofing and gutter services across Sydney, NSW, with expertise in installations, repairs, and maintenance for both residential and commercial properties. Our skilled team delivers exceptional craftsmanship and reliable service, ensuring your Sydney property is protected with quality roofing and gutter solutions.
           </motion.div>
         </div>
         {/* Scrolling Image Gallery with Auto-scroll */}
