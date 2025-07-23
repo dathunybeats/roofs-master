@@ -153,7 +153,7 @@ function FAQSection() {
     },
     {
       q: "Are you licensed and insured for roofing?",
-      a: "Yes, Roofit is fully licensed and insured for all roofing work. Your property is in safe hands."
+      a: "Yes, Highpoint Vista Roofing is fully licensed and insured for all roofing work. Your property is in safe hands."
     },
     {
       q: "Do you offer emergency roof repairs?",
@@ -253,7 +253,7 @@ function ContactSection() {
               <div className="font-semibold">Office</div>
               <div>150 Old Park Ln, London W1K 1QZ</div>
               <div className="font-semibold">Email</div>
-              <div>hello@refit.com</div>
+              <div>hello@highpointvistaroofing.com</div>
               <div className="font-semibold">Telephone</div>
               <div>07716 534984</div>
             </div>
@@ -317,7 +317,7 @@ function FooterSection() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-start md:justify-between gap-12">
         {/* Left: Logo */}
         <div className="flex-1 mb-8 md:mb-0">
-          <div className="text-4xl font-bold text-white mb-2">Refit</div>
+          <div className="text-4xl font-bold text-white mb-2">Highpoint Vista Roofing</div>
         </div>
         {/* Center/Right: Quick Links */}
         <div className="flex-1 flex flex-col md:items-end">
@@ -334,7 +334,7 @@ function FooterSection() {
       </div>
       <hr className="border-gray-700 my-8" />
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between text-gray-400 text-sm gap-2">
-        <div>&copy; {new Date().getFullYear()} Refit. All rights reserved.</div>
+        <div>&copy; {new Date().getFullYear()} Highpoint Vista Roofing. All rights reserved.</div>
         {/* Optional: Made in Framer badge or similar can go here if desired */}
       </div>
     </footer>
@@ -344,12 +344,12 @@ function FooterSection() {
 function TestimonialsSection() {
   const testimonials = [
     {
-      text: "Roofit replaced our leaking roof and the results are fantastic. The crew was professional, efficient, and left our property spotless. Highly recommended!",
+      text: "Highpoint Vista Roofing replaced our leaking roof and the results are fantastic. The crew was professional, efficient, and left our property spotless. Highly recommended!",
       name: "James Richardson",
       img: "https://randomuser.me/api/portraits/men/32.jpg",
     },
     {
-      text: "We needed emergency repairs after a storm and Roofit responded immediately. They fixed the damage and gave us peace of mind. Great service!",
+      text: "We needed emergency repairs after a storm and Highpoint Vista Roofing responded immediately. They fixed the damage and gave us peace of mind. Great service!",
       name: "Sophie Williams",
       img: "https://randomuser.me/api/portraits/women/44.jpg",
     },
@@ -364,12 +364,12 @@ function TestimonialsSection() {
       img: "https://randomuser.me/api/portraits/women/68.jpg",
     },
     {
-      text: "Fantastic workmanship! Roofit repaired our gutters and fixed a persistent leak. Everything was explained clearly and done on time.",
+      text: "Fantastic workmanship! Highpoint Vista Roofing repaired our gutters and fixed a persistent leak. Everything was explained clearly and done on time.",
       name: "Oliver Bennett",
       img: "https://randomuser.me/api/portraits/men/12.jpg",
     },
     {
-      text: "Roofit did an incredible job on our commercial flat roof. The quality is excellent and the team was a pleasure to work with.",
+      text: "Highpoint Vista Roofing did an incredible job on our commercial flat roof. The quality is excellent and the team was a pleasure to work with.",
       name: "Emily Carter",
       img: "https://randomuser.me/api/portraits/women/22.jpg",
     },
@@ -456,7 +456,7 @@ function TestimonialsSection() {
       >
         <span className="inline-block bg-gray-200 text-gray-700 text-xs px-3 py-1 rounded-full mb-4 font-semibold">Testimonials</span>
         <h2 className="text-5xl font-bold mb-2 text-center">Hear from our clients</h2>
-        <p className="text-lg text-gray-600 text-center max-w-2xl">Hear from our happy clients about their experience working with Refit and the quality of our craftsmanship.</p>
+        <p className="text-lg text-gray-600 text-center max-w-2xl">Hear from our happy clients about their experience working with Highpoint Vista Roofing and the quality of our craftsmanship.</p>
       </motion.div>
       {/* Top row: scrolls right */}
       <motion.div
@@ -517,7 +517,7 @@ function OurWorkSection() {
         "We replaced an aging roof with high-quality asphalt shingles, improving both the appearance and protection of the home. The project included new underlayment, flashing, and ridge vent installation for long-lasting results.",
       tags: ["Roof Replacement", "1 week"],
       testimonial:
-        "Roofit replaced our old roof quickly and professionally. The team was friendly and left everything tidy. Highly recommend!",
+        "Highpoint Vista Roofing replaced our old roof quickly and professionally. The team was friendly and left everything tidy. Highly recommend!",
       author: {
         name: "Laura Davies",
         img: "https://randomuser.me/api/portraits/women/55.jpg",
@@ -530,7 +530,7 @@ function OurWorkSection() {
         "Our team installed a durable flat roofing system for a local business, using high-performance materials to ensure weather resistance and energy efficiency. The project was completed on time and within budget.",
       tags: ["Flat Roof", "2 weeks"],
       testimonial:
-        "Roofit delivered a top-quality flat roof for our business. The installation was smooth and the results are excellent.",
+        "Highpoint Vista Roofing delivered a top-quality flat roof for our business. The installation was smooth and the results are excellent.",
       author: {
         name: "Emily Carter",
         img: "https://randomuser.me/api/portraits/women/22.jpg",
@@ -543,7 +543,7 @@ function OurWorkSection() {
         "After a severe storm, we repaired damaged shingles and flashing, preventing leaks and further issues. Our prompt response and expert repairs restored the roof's integrity and gave the homeowner peace of mind.",
       tags: ["Roof Repair", "2 days"],
       testimonial:
-        "After a storm, Roofit repaired our roof and prevented further leaks. Great service and communication!",
+        "After a storm, Highpoint Vista Roofing repaired our roof and prevented further leaks. Great service and communication!",
       author: {
         name: "Daniel Foster",
         img: "https://randomuser.me/api/portraits/men/65.jpg",
@@ -789,7 +789,7 @@ export default function Home() {
       {/* Header / Navigation */}
       <header className="sticky top-0 z-50" style={{ background: 'rgba(16,16,20,1)' }}>
         <nav className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-          <a href="#" className="text-2xl font-bold tracking-tight text-white">Roofit</a>
+          <a href="#" className="text-2xl font-bold tracking-tight text-white">Highpoint Vista Roofing</a>
           {/* Desktop Nav */}
           <ul className="hidden md:flex gap-8 text-sm font-medium items-center">
             <li><a href="#" className="hover:text-gray-300 text-white">Home</a></li>
@@ -870,7 +870,7 @@ export default function Home() {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.4, delay: 0.1 }}
               >
-                <div className="text-2xl font-bold tracking-tight text-white">Roofit</div>
+                <div className="text-2xl font-bold tracking-tight text-white">Highpoint Vista Roofing</div>
                 <button
                   className="text-white text-3xl focus:outline-none"
                   aria-label="Close menu"
@@ -1071,7 +1071,7 @@ export default function Home() {
             viewport={{ once: true, amount: 0.7 }}
             transition={{ duration: 0.8, ease: 'easeOut', delay: 0.15 }}
           >
-            Welcome to Roofit, your trusted roofing experts. With years of experience in residential and commercial roofing, we deliver top-quality craftsmanship and a seamless customer experience. From new installations to repairs and inspections, we’re dedicated to protecting your property with the best roofing solutions. Let us keep your home safe and dry!
+            Welcome to Highpoint Vista Roofing, your trusted roofing experts. With years of experience in residential and commercial roofing, we deliver top-quality craftsmanship and a seamless customer experience. From new installations to repairs and inspections, we’re dedicated to protecting your property with the best roofing solutions. Let us keep your home safe and dry!
           </motion.div>
         </div>
         {/* Scrolling Image Gallery with Auto-scroll */}

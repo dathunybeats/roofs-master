@@ -1,13 +1,14 @@
 {
-  "name": "roofing-website-template",
-  "version": "1.0.0",
+  "name": "highpoint-vista-roofing-website",
+  "version": "2.0.0",
   "private": false,
-  "description": "Professional roofing website template optimized for cold outreach campaigns",
+  "description": "Professional website for Highpoint Vista Roofing - Premium roofing services",
   "keywords": [
     "roofing",
     "website",
-    "template",
-    "cold-outreach",
+    "highpoint-vista-roofing",
+    "residential-roofing",
+    "commercial-roofing",
     "nextjs",
     "tailwindcss"
   ],
