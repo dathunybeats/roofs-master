@@ -3,7 +3,8 @@
     "allow": [
       "Bash(git init:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git commit -m \"Fix footer layout issue for mobile devices\n\nApply same footer fix as other branches:\n- Changed from w-[97vw] to w-full max-w-[calc(100vw-1rem)]\n- Updated padding from px-2 to px-4 md:px-6\n- Ensures footer fits properly within screen bounds on mobile\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\")"
     ],
     "deny": []
   }

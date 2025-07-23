@@ -313,7 +313,7 @@ function ContactSection() {
 
 function FooterSection() {
   return (
-    <footer className="w-[97vw] mx-auto bg-[rgba(16,16,20,255)] rounded-t-2xl pt-12 pb-6 px-2 mt-8">
+    <footer className="w-full max-w-[calc(100vw-1rem)] mx-auto bg-[rgba(16,16,20,255)] rounded-t-2xl pt-12 pb-6 px-4 md:px-6 mt-8">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-start md:justify-between gap-12">
         {/* Left: Logo */}
         <div className="flex-1 mb-8 md:mb-0">
