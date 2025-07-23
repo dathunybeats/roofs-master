@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Highpoint Vista Roofing - Premium Roofing Services",
-  description: "Professional roofing services for residential and commercial properties. Quality installations, repairs, and maintenance by Highpoint Vista Roofing.",
+  title: "Highpoint Vista Roofing - Roofing, Reroofs, New Roofs & Maintenance",
+  description: "Expert roofing services across Brisbane and Sunshine Coast. Specializing in roofing, reroofs, new roofs and maintenance. Quality craftsmanship by Highpoint Vista Roofing.",
 };
 
 export default function RootLayout({
