@@ -65,7 +65,7 @@ function ServicesSection() {
   const [openIdx, setOpenIdx] = useState<number | null>(null);
   const selected = openIdx === null ? 0 : openIdx;
   return (
-    <section className="max-w-6xl mx-auto py-20 px-4" id="services">
+    <section className="w-full max-w-6xl mx-auto py-20 px-2 md:px-4" id="services">
       <div className="flex flex-col items-center mb-8">
         <motion.div
           initial={{ opacity: 0, y: 60 }}
@@ -174,7 +174,7 @@ function FAQSection() {
   ];
   const [openIdx, setOpenIdx] = useState<number | null>(null);
   return (
-    <section className="max-w-3xl mx-auto py-12 px-2" id="faq">
+    <section className="w-full max-w-3xl mx-auto py-12 px-2" id="faq">
       <div className="flex flex-col md:flex-row gap-6 items-start justify-center">
         {/* Left column */}
         <motion.div
@@ -241,8 +241,8 @@ function FAQSection() {
 
 function ContactSection() {
   return (
-    <section className="w-full flex justify-center items-center py-16 px-2 bg-transparent" id="contact">
-      <div className="w-full max-w-7xl bg-[rgba(16,16,20,1)] rounded-2xl flex flex-col md:flex-row p-6 md:p-12 gap-8 md:gap-12 shadow-lg mx-auto">
+    <section className="w-full flex justify-center items-center py-16 px-1 bg-transparent" id="contact">
+      <div className="w-full max-w-7xl bg-[rgba(16,16,20,1)] rounded-lg md:rounded-2xl flex flex-col md:flex-row p-4 md:p-12 gap-6 md:gap-12 shadow-lg mx-auto">
         {/* Left: Contact Info */}
         <div className="flex-1 text-white flex flex-col justify-between min-w-[260px]">
           <div>
@@ -313,7 +313,7 @@ function ContactSection() {
 
 function FooterSection() {
   return (
-    <footer className="w-full max-w-[calc(100vw-1rem)] mx-auto bg-[rgba(16,16,20,255)] rounded-t-2xl pt-12 pb-6 px-4 md:px-6 mt-8">
+    <footer className="w-full bg-[rgba(16,16,20,255)] rounded-t-lg md:rounded-t-2xl pt-12 pb-6 px-2 md:px-6 mt-8">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-start md:justify-between gap-12">
         {/* Left: Logo */}
         <div className="flex-1 mb-8 md:mb-0">
@@ -446,7 +446,7 @@ function TestimonialsSection() {
   }
 
   return (
-    <section className="max-w-7xl mx-auto py-20 px-4" id="testimonials">
+    <section className="w-full max-w-7xl mx-auto py-20 px-2 md:px-4" id="testimonials">
       <motion.div
         initial={{ opacity: 0, y: 60 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -552,7 +552,7 @@ function OurWorkSection() {
   ];
 
   return (
-    <section className="max-w-7xl mx-auto py-24 px-4 flex flex-col items-center" id="projects">
+    <section className="w-full max-w-7xl mx-auto py-24 px-2 md:px-4 flex flex-col items-center" id="projects">
       <motion.div
         initial={{ opacity: 0, y: 60 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -785,10 +785,10 @@ export default function Home() {
   };
 
   return (
-    <div className="font-sans bg-gray-50 text-gray-900">
+    <div className="font-sans bg-gray-50 text-gray-900 w-full min-w-0">
       {/* Header / Navigation */}
       <header className="sticky top-0 z-50" style={{ background: 'rgba(16,16,20,1)' }}>
-        <nav className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+        <nav className="w-full max-w-7xl mx-auto flex items-center justify-between px-4 md:px-6 py-4">
           <a href="#" className="text-2xl font-bold tracking-tight text-white">Highpoint Vista Roofing</a>
           {/* Desktop Nav */}
           <ul className="hidden md:flex gap-8 text-sm font-medium items-center">
@@ -924,9 +924,9 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <div className="px-2 md:px-0 pt-6 md:pt-0 pb-6 md:pb-0" style={{ backgroundColor: 'rgba(16,16,20,1)' }}>
+      <div className="w-full px-2 md:px-0 pt-6 md:pt-0 pb-6 md:pb-0" style={{ backgroundColor: 'rgba(16,16,20,1)' }}>
         <section
-          className="relative h-auto min-h-[400px] flex flex-col md:flex-row items-center md:items-stretch gap-12 px-4 text-white py-8 md:py-16 rounded-2xl md:rounded-none overflow-hidden md:overflow-visible mx-auto before:absolute before:inset-0 before:bg-[url(/yyYhQHFqAUi9h1nO5lH9iqGVY7o.png)] before:bg-cover before:bg-center before:bg-no-repeat before:[filter:brightness(0.7)] before:md:hidden"
+          className="relative h-auto min-h-[400px] flex flex-col md:flex-row items-center md:items-stretch gap-12 px-2 md:px-4 text-white py-8 md:py-16 rounded-2xl md:rounded-none overflow-hidden before:absolute before:inset-0 before:bg-[url(/yyYhQHFqAUi9h1nO5lH9iqGVY7o.png)] before:bg-cover before:bg-center before:bg-no-repeat before:[filter:brightness(0.7)] before:md:hidden"
         style={{ 
           background: 'rgba(16,16,20,1)'
         }}
@@ -1052,7 +1052,7 @@ export default function Home() {
       </div>
 
       {/* About Section (roofing-specific) */}
-      <section className="max-w-7xl mx-auto py-20 px-4" id="about">
+      <section className="w-full max-w-7xl mx-auto py-20 px-2 md:px-4" id="about">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-10 mb-12">
           <motion.div
             className="flex-1 min-w-[250px]"
