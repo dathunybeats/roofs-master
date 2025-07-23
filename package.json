@@ -1,9 +1,17 @@
 {
-  "name": "roofing-website-template",
-  "version": "1.0.0",
+  "name": "straight-flow-roofing-website",
+  "version": "2.0.0",
   "private": false,
-  "description": "Professional roofing website template optimized for cold outreach campaigns",
-  "keywords": ["roofing", "website", "template", "cold-outreach", "nextjs", "tailwindcss"],
+  "description": "Professional website for Straight Flow Roofing - Expert roofing services",
+  "keywords": [
+    "roofing",
+    "website",
+    "straight-flow-roofing",
+    "residential-roofing",
+    "commercial-roofing",
+    "nextjs",
+    "tailwindcss"
+  ],
   "author": "Hani <dathunybeats@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -13,12 +21,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
     "framer-motion": "^12.23.6",
     "motion": "^12.23.6",
     "next": "15.4.1",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "react-icons": "^5.5.0"
+    "react-icons": "^5.5.0",
+    "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
