@@ -1,0 +1,44 @@
+{
+  "templateName": "Roofing Website Template",
+  "version": "1.0.0",
+  "description": "Professional roofing website template optimized for cold outreach campaigns",
+  "customizable": {
+    "companyName": "Roofit",
+    "tagline": "Best Roofing Company in Alabama",
+    "heroTitle": "Your trusted partner for quality roofing",
+    "heroSubtitle": "Professional roofing solutions for homes and businesses. Reliable, experienced, and dedicated to excellence.",
+    "heroImage": "/yyYhQHFqAUi9h1nO5lH9iqGVY7o.png",
+    "contactPhone": "(555) 123-4567",
+    "contactEmail": "info@roofit.com",
+    "businessAddress": "123 Main St, Birmingham, AL 35203",
+    "services": [
+      "Roof Replacement",
+      "Roof Repair", 
+      "Emergency Roofing",
+      "Gutter Services",
+      "Roof Inspection",
+      "Commercial Roofing"
+    ],
+    "colors": {
+      "primary": "rgba(16,16,20,1)",
+      "secondary": "#ffffff",
+      "accent": "#gray-300"
+    }
+  },
+  "deployment": {
+    "platform": "Vercel",
+    "buildCommand": "npm run build",
+    "outputDirectory": ".next",
+    "installCommand": "npm install"
+  },
+  "quickStart": {
+    "steps": [
+      "1. Fork or clone this repository",
+      "2. Update template-config.json with your business details",
+      "3. Replace hero image in /public folder",
+      "4. Update company name throughout app/page.tsx",
+      "5. Deploy to Vercel by connecting your GitHub repo",
+      "6. Update domain and SEO settings"
+    ]
+  }
+}
