@@ -8,7 +8,9 @@
       "Bash(vercel)",
       "Bash(vercel login:*)",
       "Bash(npm run build:*)",
-      "Bash(vercel:*)"
+      "Bash(vercel:*)",
+      "Bash(git add -A)",
+      "Bash(git commit -m \"Fix footer layout issue - prevent overflow on mobile devices\n\n- Changed from w-[97vw] to w-full max-w-[calc(100vw-1rem)] for proper mobile containment\n- Updated padding from px-2 to px-4 md:px-6 for better spacing\n- Ensures footer fits properly within screen bounds on all devices\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\")"
     ],
     "deny": []
   }
