@@ -924,9 +924,9 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <div className="w-full" style={{ backgroundColor: 'rgba(16,16,20,1)' }}>
+      <div className="px-2 md:px-0 pt-6 md:pt-0 pb-6 md:pb-0" style={{ backgroundColor: 'rgba(16,16,20,1)' }}>
         <section
-          className="relative h-auto min-h-[400px] flex flex-col md:flex-row items-center md:items-stretch gap-12 px-4 text-white py-8 md:py-16 overflow-hidden before:absolute before:inset-0 before:bg-[url(/yyYhQHFqAUi9h1nO5lH9iqGVY7o.png)] before:bg-cover before:bg-center before:bg-no-repeat before:[filter:brightness(0.7)] before:md:hidden"
+          className="relative h-auto min-h-[400px] flex flex-col md:flex-row items-center md:items-stretch gap-12 px-4 text-white py-8 md:py-16 rounded-2xl md:rounded-none overflow-hidden md:overflow-visible mx-auto before:absolute before:inset-0 before:bg-[url(/yyYhQHFqAUi9h1nO5lH9iqGVY7o.png)] before:bg-cover before:bg-center before:bg-no-repeat before:[filter:brightness(0.7)] before:md:hidden"
         style={{ 
           background: 'rgba(16,16,20,1)'
         }}
